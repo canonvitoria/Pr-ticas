@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "aula1",
+  "name": "aula2",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  },
-  "devDependencies": {},
-  "description": ""
+  }
 }

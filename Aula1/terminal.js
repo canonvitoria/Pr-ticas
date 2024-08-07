@@ -7,13 +7,13 @@ const prompt = promptsync({sigint: true});
 //Exemplo 1: Conta simples
 //---------------------------------------
 
-// let nome = prompt("Informe seu nome completo: ")
-// let notaUm = Number(prompt("Digite sua nota 1: "));
-// let notaDois = Number(prompt("Digite sua nota 2: "));
-// let notaTrês = Number(prompt("Digite sua nota 3: "));
+let nome = prompt("Informe seu nome completo: ")
+let notaUm = Number(prompt("Digite sua nota 1: "));
+let notaDois = Number(prompt("Digite sua nota 2: "));
+let notaTrês = Number(prompt("Digite sua nota 3: "));
 
-// let media = (notaUm + notaDois + notaTrês)/3;
-// console.log(`Olá, ${nome}!! Sua nota final foi ${media}.`);
+let media = (notaUm + notaDois + notaTrês)/3;
+console.log(`Olá, ${nome}!! Sua nota final foi ${media}.`);
 
 //--------------------------------------
 // Exercício: Escrever um programa JavaScriopt que solicita a quantidade de sucos e sanduíches consumidos pelos clientes de uma mesa de uma lanchonete. Exiba o recibo com os valores parciais e total final a pagar conforme abaixo:
